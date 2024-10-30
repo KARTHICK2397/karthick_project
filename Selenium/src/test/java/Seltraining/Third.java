@@ -25,10 +25,10 @@ public class Third {
 		
 		String S2="\"]";
 		
-		String w=S1+district+S2;
+		String w=S1+state+S2;
 		String w2=S1+district+S2;
 		System.out.println(w);
-		
+		//this is added for testing purpose gitt
 		driver.findElement(By.xpath(w)).click();
 		driver.findElement(By.xpath("//span[text()=\"--Select one--\"]")).click();
 		Thread.sleep(3000);
