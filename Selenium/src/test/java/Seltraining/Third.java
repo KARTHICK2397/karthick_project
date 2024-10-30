@@ -25,7 +25,7 @@ public class Third {
 		
 		String S2="\"]";
 		
-		String w=S1+state+S2;
+		String w=S1+district+S2;
 		String w2=S1+district+S2;
 		System.out.println(w);
 		
