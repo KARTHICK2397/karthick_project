@@ -20,12 +20,12 @@ public class Third {
 		driver.findElement(By.xpath("//input[@id=\"Pincode\"]")).sendKeys("6378954");
 		driver.findElement(By.xpath("//input[@id=\"Sex_M\"]")).click();
 		driver.findElement(By.xpath("//span[text()=\"--Select a state--\"]")).click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		String S1="//ul[@class=\"select2-results__options\"]//li[text()=\"";
 		
 		String S2="\"]";
 		
-		String w=S1+district+S2;
+		String w=S1+state+S2;
 		String w2=S1+district+S2;
 		System.out.println(w);
 		
