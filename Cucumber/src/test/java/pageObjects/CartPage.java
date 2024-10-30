@@ -33,6 +33,7 @@ public class CartPage extends BasePage {
 			
 	    }
 	    
+	    
 	    public void quantityCOuntSelect() {
 			
 	 	   Action.selectByDiv(quantity_count_select);

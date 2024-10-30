@@ -95,7 +95,6 @@ public class MercuryRegistrationPage extends BasePage {
 	}
 
 	public void setConfirmPassword(String input) {
-		System.out.println(input);
 		Action.sendInput(confirm_password, input);
 		
 	}
